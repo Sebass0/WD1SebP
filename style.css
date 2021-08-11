@@ -1,0 +1,61 @@
+body {overflow: scroll;}
+
+header {background-image: url("childrenplayingpng.png");}
+
+header, section, article, main {
+    width: 50vw;
+    height: 50vh;
+    margin-top: 20px; 
+    border-radius: 10px;
+}
+
+main {background-image: url("humanchildjpg.jpg"); 
+      font-size: x-large;}
+
+nav {margin-top: 10px; 
+    height: 22vh; 
+    width: 107vh;
+    background-color: lightgrey; 
+    border-radius: 5px;
+    position: sticky; 
+    top: 0; 
+    z-index: auto;}
+
+nav >a
+   {border: 1px solid black; 
+    border-radius: 25px; 
+    text-align: center; 
+    margin: 30px; 
+    font-size: large; 
+    width: 20%; 
+    height: 60%; 
+    display: inline-block;}
+
+header >img
+    {display: inline-block; 
+    border: black solid 1px; 
+    border-radius: 120px;}
+
+footer 
+    {background: lightgrey; 
+    width: 50vw;
+    height: 30vh; 
+    text-align: center;
+    margin-top: 20px; 
+    border-radius: 10px;}
+
+footer >img
+    {display: inline-block; 
+    border: black solid 1px; 
+    border-radius: 120px; 
+    width: 90%
+}
+article 
+    {background: lightgrey; 
+    height: 90vh; 
+    border-radius: 10px;}
+
+section
+    {margin-top: 100px; 
+    background-image: url("humanchildjpg.jpg");}
+
